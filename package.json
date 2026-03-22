@@ -1,8 +1,8 @@
 {
-  "name": "institutional-reversal-bot",
-  "version": "1.0.0",
-  "description": "Smart-money reversal detector for Binance USDT-M perpetuals (Option A implementation).",
-  "main": "institutional_reversal_bot.js",
+  "name": "institutional-execution-bot",
+  "version": "1.2.0",
+  "description": "Institutional Auto Execution Bot vPRO 1.2 (Binance Futures + Telegram Control)",
+  "main": "institutional_execution_bot.js",
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js",
@@ -13,27 +13,23 @@
     "binance",
     "futures",
     "trading-bot",
-    "funding",
-    "oi",
-    "cvd",
+    "execution",
+    "telegram",
+    "auto-execution",
     "institutional"
   ],
   "author": "",
   "license": "MIT",
   "engines": {
-    "node": ">=16.14.0"
+    "node": ">=18.0.0"
   },
   "dependencies": {
     "axios": "^1.7.2",
-    "cors": "^2.8.5",
     "dotenv": "^16.4.5",
-    "express": "^4.19.2",
     "mongodb": "^6.8.0",
-    "node-cron": "^3.0.3",
-    "node-telegram-bot-api": "^0.66.1",
-    "ws": "^8.18.0"
+    "node-telegram-bot-api": "^0.67.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.22"
+    "nodemon": "^3.1.4"
   }
 }
